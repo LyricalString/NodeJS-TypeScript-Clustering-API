@@ -1,6 +1,5 @@
 import express from 'express'
 import diaryRouter from './routes/diaries'
-import 'newrelic'
 import cluster from 'cluster'
 import process from 'process'
 import os from 'os'
